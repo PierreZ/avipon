@@ -13,7 +13,7 @@ var commands = {
 }
 
 function change(result) {
-	        var scope = angular.element($("#response")).scope();
+	        var scope = angular.element($(".response")).scope();
 		    scope.$apply(function(){
 			            scope.result =result;
 				        })
