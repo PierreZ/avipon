@@ -24,11 +24,11 @@ var showTime= function () {
 }
 
 var showSchool= function () {
-	{{result}}="C'est l'ISEN !";
+	change("C'est l'ISEN !");
 }
 
 var showSchool= function () {
-	{{result}}="C'est l'ISEN !";
+	change("C'est l'ISEN !");
 }
 var showFlickr = function(term) {
 	  var url = 'http://api.flickr.com/services/rest/?tags='+tag;
