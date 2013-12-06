@@ -10,8 +10,13 @@ var commands = {
 	'Dessine moi (un) (une) (le) (la) (les) (des) (du) (de la) :term ?':showFlickr
        	
 };
-}
 
+
+// Initialize annyang with our commands
+annyang.init(commands);
+// Start listening. You can call this here, or attach this call to an event, button, etc.
+annyang.start();
+}
 function change(result) {
 	        var scope = angular.element($(".response")).scope();
 		    scope.$apply(function(){
@@ -39,8 +44,4 @@ var showFlickr = function(term) {
 	  var url = 'http://api.flickr.com/services/rest/?tags='+tag;
 	    $.getJSON(url);
 }
-// Initialize annyang with our commands
-annyang.init(commands);
-// Start listening. You can call this here, or attach this call to an event, button, etc.
-annyang.start();
 
