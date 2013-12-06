@@ -10,10 +10,17 @@ var commands = {
 };
 }
 
+function change(result) {
+	        var scope = angular.element($("#outer")).scope();
+		    scope.$apply(function(){
+			            scope.result =result;
+				        })
+}
+
 var showTime= function () {
 	var time=new Date();
+	change(time);
 
-	{{result}}=time;
 }
 
 var showSchool= function () {
