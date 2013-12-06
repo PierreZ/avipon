@@ -30,8 +30,8 @@ var showSwag= function () {
 	change("Swag");
 }
 
-var showSchool= function () {
-	change("C'est l'ISEN !");
+var showClub= function () {
+	change("C'est le club Elec !");
 }
 var showFlickr = function(term) {
 	  var url = 'http://api.flickr.com/services/rest/?tags='+tag;
