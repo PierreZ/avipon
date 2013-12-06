@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 	<head>
 		<meta charset="utf-8" />
-		<title>Titre</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/0.2.0/annyang.min.js"></script>
+		<title>Avipon</title>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/0.2.0/annyang.min.js"></script>:
+		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>:
+		<script src="js/main.js"></script>
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	
 	<body>
-						        
+		<header>
+			<h1> Pourquoi ne pas parler à son ordinateur ?</h1>
+			<h2> Par exemple: <span
+					     class="txt-rotate"
+					          data-period="2000"
+						  data-rotate='[ "Quel heure est-il ?", 
+						  	"Quelle est la meilleure école ?",
+							"Quel est le meilleur club ?",
+					       		"Dessine moi un mouton (ou autre chose !)" ]'></span>
+			</h2>
+			</header>
+			<div class "response">
+				<p>{{result}}</p>
+			</div>
 	</body>
 </html>
