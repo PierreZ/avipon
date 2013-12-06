@@ -11,7 +11,7 @@ var commands = {
 }
 
 var showTime= function () {
-	var time=new Date(year, month, day, hours, minutes, seconds, milliseconds);
+	var time=new Date();
 
 	{{result}}=time;
 }
