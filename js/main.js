@@ -1,4 +1,6 @@
+function Ctrl($scope) {
 
+}
 if (annyang) {
 var commands = {
 	'Quel heure est-il ?': showTime,
