@@ -26,6 +26,9 @@ var showTime= function () {
 var showSchool= function () {
 	change("C'est l'ISEN !");
 }
+var showSwag= function () {
+	change("Swag");
+}
 
 var showSchool= function () {
 	change("C'est l'ISEN !");
