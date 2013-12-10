@@ -1,11 +1,15 @@
 function Ctrl($scope) {
 
 }
+
 if (annyang) {
+annyang.debug();
+annyang.setLanguage("fr-FR");
 var commands = {
-	'Quel heure est-il ?': showTime,
+	'quelle heure est-il': showTime,
 	'Quel est la meilleure école ?': showSchool,
 	'yolo':showSwag,
+	'Yolo':showSwag,
 	'Quel est le meilleur club ?':showClub,
 	'Dessine moi (un) (une) (le) (la) (les) (des) (du) (de la) :term ?':showFlickr
        	
@@ -25,6 +29,7 @@ function change(result) {
 }
 
 var showTime= function () {
+
 	var time=new Date();
 	change(time);
 

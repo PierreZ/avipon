@@ -1,19 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body{
-	background-color:#BBCDDD;
+	background-color:rgba(189,207,222,0.59);
 	font-family: 'Roboto', sans-serif;
 	header{
+		text-align:center;
 		h1{
-		
+		font-style:bold;
+		color:#c74c4c;	
+		}
+		.isen{
+			width: auto;
+			margin: 20px;
 		}
 		h2{
-
+			color: #681708;
 		}
 	}
 	.response{
+		margin: 150px;
+		text-align:center;
 		p{
-
+			font-size: x-large;
+			
 		}
 	}
 }

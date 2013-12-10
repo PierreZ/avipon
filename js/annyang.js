@@ -25,7 +25,7 @@
 
   var commandsList;
   var recognition;
-  var lang = 'fr-FR';
+  var lang = 'en-US';
   var callbacks = { start: [], error: [], end: [], result: [], resultMatch: [], resultNoMatch: [], errorNetwork: [], errorPermissionBlocked: [], errorPermissionDenied: [] };
   var autoRestart;
   var lastStartedAt = 0;
