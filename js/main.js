@@ -1,3 +1,25 @@
+var showTime= function () {
+
+	var time=new Date();
+	change(time);
+
+}
+
+var showSchool= function () {
+	change("C'est l'ISEN !");
+}
+var showSwag= function () {
+	change("Swag");
+}
+
+var showClub= function () {
+	change("C'est le club Elec !");
+}
+var showFlickr = function(term) {
+	  var url = 'http://api.flickr.com/services/rest/?tags='+tag;
+	    $.getJSON(url);
+}
+
 function Ctrl($scope) {
 
 }
@@ -26,27 +48,5 @@ function change(result) {
 		    scope.$apply(function(){
 			            scope.result =result;
 				        })
-}
-
-var showTime= function () {
-
-	var time=new Date();
-	change(time);
-
-}
-
-var showSchool= function () {
-	change("C'est l'ISEN !");
-}
-var showSwag= function () {
-	change("Swag");
-}
-
-var showClub= function () {
-	change("C'est le club Elec !");
-}
-var showFlickr = function(term) {
-	  var url = 'http://api.flickr.com/services/rest/?tags='+tag;
-	    $.getJSON(url);
 }
 
